@@ -1,0 +1,211 @@
+* {
+    margin:0;
+    padding:0;
+    
+}
+li {
+    list-style-type:none;
+}
+a {
+    text-decoration:none;
+    color:#000;
+}
+body {
+    margin:0px;
+    padding:0px;
+    color:#000;
+    font-family:arial;
+    font-size:15px;
+    background-image:url(../images/99.jpg);
+    background-repeat: repeat-x;
+    background-repeat: no-repeat;
+}
+#wrapper {
+    width:1020px;
+    margin:0 auto;
+    border:#333 1px solid;
+    overflow:hidden;
+}
+
+#header {
+    width:1020px;
+    height:410px;
+    overflow:hidden;
+}
+
+
+#menu {
+    width:100%;
+    height:53px;
+    margin-bottom:10px;
+    background:url(../images/menu.jpg) no-repeat;
+}
+#menu ul li {
+    display:block;
+}
+#menu ul li a {
+    float:left;
+    display:block;
+    width:170px;
+    height:53px;
+    line-height:53px;
+    font-size:16px;
+    color:#fff;
+    text-align:center;
+    background:url(../images/menu_bian.jpg) center left no-repeat;
+}
+
+
+#main {
+    width:960px;
+    padding:30px;
+    line-height:2;
+    overflow:hidden;
+}
+.content {
+    float:left;
+    width:560px
+}
+ .list {
+    
+    overflow:hidden;
+    font-size: 20px;
+}
+ .list li {
+    height:136px;
+    overflow:hidden;
+    margin-bottom:30px;
+}
+.list li img {
+    width:200px;
+    height:130px;
+    border:3px solid #35373b;
+    float:left;
+    margin-right:20px;
+}
+ .list li h5 {
+    font-size:25px;
+    color:#000;
+}
+ 
+#main .sidebar {
+    float:right;
+    width:320px;
+}
+
+.chengyuan {
+    clear:both;
+    padding-top:30px;
+}
+.chengyuan h1 {
+    text-align:center;
+    color:#fff;
+    margin-bottom:20px;
+}
+.chengyuan li {
+    line-height:30px;
+    border-bottom:1px dashed #999;
+}
+
+ .chengyuan img {
+    width:100%;
+    margin-top:20px;
+}
+
+.jieshao h2 {margin-bottom:10px;}
+.jieshao p {text-indent:32px;
+    font-size: 25px;
+}
+.jieshao img {width:100%;}
+
+
+
+
+
+.liuyan h2 {
+    text-align:center;
+}
+ .input-box {
+    width:500px;
+    overflow:hidden;
+    margin:auto;
+    margin-bottom:20px;
+}
+ .input-box p {
+    height:26px;
+    width:100px;
+    float:left;
+    line-height:26px;
+}
+ .input-box input {
+    width:400px;
+    height:26px;
+    border:none;
+    float:left;
+}
+ .input-box textarea {
+    display:block;
+    width:400px;
+    height:100px;
+    border:none;
+    float:left;
+}
+ .btn {
+    display:block;
+    width:92px;
+    height:59px;
+    background:url(../images/tijiao.png);
+    border:none;
+    margin:auto;
+    outline:none;
+    cursor:pointer;
+}
+
+.jieshao img {
+    width:100%;
+}
+
+.aaa{
+    text-align: center;
+}
+
+
+nav{
+    position: fixed;
+    top: 50px;
+    left: 10px;
+    width: 70px;
+    float: left;
+    
+}
+nav ul{
+   
+    padding:0;
+    margin: 0;
+    list-style-type: none;
+}
+nav ul li{
+    background-color: rgb(211, 199, 199);
+    margin-top: 5px;
+    border: solid 1px white;
+    border-radius: 10%;
+    /* padding-left: 10px; */
+    /* padding-right: 20px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+nav ul li:hover{
+    background: blueviolet;
+}
+nav ul li:nth-child(6){
+    background-color: rgb(76, 106, 225);
+}
+nav ul a{
+    padding-left: 15px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
