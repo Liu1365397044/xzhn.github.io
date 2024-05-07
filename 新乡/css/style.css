@@ -1,0 +1,209 @@
+﻿
+*{
+     margin:0;
+      padding:0;
+    }
+body{
+    font-size:14px; 
+    background:#a3deee
+}
+ul{ 
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+/*头部*/
+.header{
+    width:100%;
+    overflow:hidden;
+    background:#0092d2;
+     z-index: 100;
+    }
+
+
+
+.top{
+    width:800px;
+    margin:auto;
+}
+ .top img
+{display:block;width:100%;
+}
+.nav{
+     width:100%;
+     height:40px; 
+     background:#074e7b;
+      line-height:40px;
+    }
+.nav ul{
+    width:1000px;
+    margin:auto;
+}
+.nav li{
+    float:left;
+    margin-right:20px;
+}
+.nav li a{
+    color:#fff;
+    display:block;
+    width:100px;
+    height:40px;
+    text-align:center;
+}
+.nav li a:hover{
+     color:#074e7b;
+      background:#fff;
+    }
+.nav_c{ 
+     width:1000px; 
+     margin:0px auto;
+    }
+
+/*中间内容*/
+.main{ 
+    width:1000px;
+    
+    margin:auto;
+    overflow:hidden;
+}
+.main_left{
+    width:150px;
+    float:left;
+}
+.cont{
+    width:120px;
+    height:290px;
+    padding:10px;
+    line-height:26px;
+    color:#000;
+    background:#fff;
+    border:5px solid #9eca6c;
+    margin-top:45px;
+    margin-bottom:10px;
+    overflow:hidden;
+}
+.cont h2{
+    font-size:16px;
+    color:#9eca6c;
+    text-align:center;
+}
+.cont li a{
+     display:block;
+      width:120px;
+      height:33px; 
+      background:#9eca6c; 
+      
+      margin:10px 0px;
+       font-size:14px;
+        font-weight:bold;  
+        line-height:33px; 
+        text-align:center; 
+        color:#fff;
+    }
+
+.main_right{
+     width:800px;
+     float:left;
+     margin-left:50px;
+    }
+.jianjie h1{
+    height:45px;
+    text-align:center;
+    line-height:45px;
+    font-size:18px;
+    font-weight:bold;
+    color:#074e7b;
+}
+.jianjie img{
+    width:800px;
+}
+.jianjie p{
+    line-height:2;
+    text-indent:28px;
+}
+/*底部*/
+.footer{
+    width:1000px;
+    margin:auto;
+    margin-top:30px;
+    color:#000;
+    border-top:1px solid #5d9aab;
+    text-align:center;
+    line-height:15px;
+}
+.footer p{
+    font-size: 12px;
+}
+/*景点页面*/
+.jingdian{
+    background:#fff;
+    padding:20px;
+    margin-top:45px;
+    overflow:hidden;
+}
+.jingdian h2{
+    text-align:center;
+}
+.jingdian p{
+    line-height:2;
+    text-indent:28px;
+}
+.jingdian img{
+    display:block;margin:10px auto;
+    max-width:100%;
+}
+/*西安美食*/
+.meishi{
+    padding:5px;
+    background:#fff;
+    overflow:hidden;
+    margin-top:45px;
+}
+ h2{
+    text-align:center;
+}
+.meishi li{
+    width:300px;float:left;margin:15px;
+}
+.meishi li img{
+    width:300px;height:240px;
+}
+.meishi li p{
+    text-align:center;
+}nav{
+    position: fixed;
+    top: 50px;
+    left: 10px;
+    width: 70px;
+    float: left;
+    
+}
+nav ul{
+   
+    padding:0;
+    margin: 0;
+    list-style-type: none;
+}
+nav ul li{
+    background-color: rgb(211, 199, 199);
+    margin-top: 5px;
+    border: solid 1px white;
+    border-radius: 10%;
+    /* padding-left: 10px; */
+    /* padding-right: 20px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+nav ul li:hover{
+    background: blueviolet;
+}
+nav ul li:nth-child(5){
+    background-color: rgb(76, 106, 225);
+}
+nav ul a{
+    padding-left: 15px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+}
